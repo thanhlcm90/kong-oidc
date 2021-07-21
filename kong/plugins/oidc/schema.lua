@@ -7,6 +7,7 @@ return {
     introspection_endpoint = { type = "string", required = false },
     timeout = { type = "number", required = false },
     introspection_endpoint_auth_method = { type = "string", required = false },
+    introspection_cache_ignore = { type = "string", required = true, default = "no" },
     bearer_only = { type = "string", required = true, default = "no" },
     realm = { type = "string", required = true, default = "kong" },
     redirect_uri = { type = "string" },
